@@ -1,7 +1,8 @@
 #property copyright    "ForexNew.org Opensource"
 #property link         "https://forexnew.org/"
 #property version      "1.00"
-#property description  "Check Leverage and Spread For MetaTrader 4"
+#property description  "Check Leverage and Spread Indicator"
+#property description  "For Metatrader 4"
 #property strict
 #property indicator_chart_window
 
