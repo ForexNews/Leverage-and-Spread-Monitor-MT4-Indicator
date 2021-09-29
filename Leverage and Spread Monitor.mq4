@@ -65,7 +65,6 @@ void Check_Leverage_Spread()
    ObjectSet("Custom_Label", OBJPROP_YDISTANCE, 10);
    ObjectSet("Custom_Label", OBJPROP_SELECTABLE, false);
    ObjectSet("Custom_Label", OBJPROP_HIDDEN, true);
-   
    WindowRedraw();
 }
 
