@@ -26,7 +26,7 @@
 ```
 #property copyright    "ForexNew.org Opensource"
 #property link         "https://forexnew.org/"
-#property version      "1.00"
+#property version      "V.1.0"
 #property description  "- Leverage and Spread Monitor"
 #property description  "- Indicator for Metatrader 4"
 #property strict
@@ -68,7 +68,6 @@ void Check_Leverage_Spread()
    ObjectSet("Main_Panel", OBJPROP_SELECTABLE, false);
    ObjectSet("Main_Panel", OBJPROP_HIDDEN, true);
    
-// Leverage Label //
    ObjectCreate("Leverage_Label", OBJ_LABEL, 0, 0, 0);
    ObjectSet("Leverage_Label", OBJPROP_CORNER, 0);
    ObjectSet("Leverage_Label", OBJPROP_XDISTANCE, 25);
@@ -76,8 +75,7 @@ void Check_Leverage_Spread()
    ObjectSetText("Leverage_Label", "Leverage = 1:"+leverage, Text_Size, Font_Setting, Text_Color);
    ObjectSet("Leverage_Label", OBJPROP_SELECTABLE, false);
    ObjectSet("Leverage_Label", OBJPROP_HIDDEN, true);
-      
-// Spread Label //      
+         
    ObjectCreate("Spread_Label", OBJ_LABEL, 0, 0, 0);
    ObjectSet("Spread_Label", OBJPROP_CORNER, 0);
    ObjectSet("Spread_Label", OBJPROP_XDISTANCE, 25);
@@ -85,6 +83,15 @@ void Check_Leverage_Spread()
    ObjectSetText("Spread_Label", "Spread = "+spread+" Points", Text_Size, Font_Setting, Text_Color);
    ObjectSet("Spread_Label", OBJPROP_SELECTABLE, false);
    ObjectSet("Spread_Label", OBJPROP_HIDDEN, true);
+   
+   ObjectCreate("Custom_Label", OBJ_LABEL, 0, 0, 0);
+   ObjectSetText("Custom_Label","Copyright: ForexNew.org - Free Opensource",9, "Arial", DeepSkyBlue);
+   ObjectSet("Custom_Label", OBJPROP_CORNER, 2);
+   ObjectSet("Custom_Label", OBJPROP_XDISTANCE, 10);
+   ObjectSet("Custom_Label", OBJPROP_YDISTANCE, 10);
+   ObjectSet("Custom_Label", OBJPROP_SELECTABLE, false);
+   ObjectSet("Custom_Label", OBJPROP_HIDDEN, true);
+   
    WindowRedraw();
 }
 
@@ -94,5 +101,6 @@ void OnDeinit(const int reason)
    ObjectsDeleteAll(0,"Main_Panel");
    ObjectsDeleteAll(0,"Leverage_Label");
    ObjectsDeleteAll(0,"Spread_Label");
+   ObjectsDeleteAll(0,"Custom_Label");
 }
 ```
