@@ -5,9 +5,6 @@
 - Useful to monitor, if broker forex changing leverage, and spread during the economic news announcements.
 - Real-time spread checking of the current symbol.
 - Real-time leverage checking of trading account.
-
-## Formula
-- Current spread = [Ask Price - Bid Price]
  
 ## Inputs Parameter
 ![Leverage and Spread Check MT4 Indicator Input](https://forexnew.org/Download/check-leverage-spread-input.png)
@@ -16,6 +13,9 @@
 - Panel Color : SteelBlue
 - Panel Width : 155
 - Panel Height : 65
+
+## Formula
+- Current spread = [Ask Price - Bid Price]
 
 ## More Information
 - If you looking for the broker forex spread comparison table.
