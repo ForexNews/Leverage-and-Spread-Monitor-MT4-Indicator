@@ -1,6 +1,7 @@
 # Leverage and Spread Monitor Indicator
 ![Leverage and Spread Check MT4 Indicator Screen](https://forexnew.org/Download/check-leverage-spread-indicator.png)
-- Indicator to automate checking the leverage and spread on your trading account.
+- Combination of leverage and spread indicator.
+- Tools for automating checking the leverage and spread on your trading account.
 - Coding for MetaTrader 4 platform and all broker forex.
 - Useful to monitor, if broker forex changing leverage, and spread during the economic news announcements.
 - Real-time spread checking of the current symbol.
