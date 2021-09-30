@@ -26,7 +26,7 @@
 ```
 #property copyright    "ForexNew.org Opensource"
 #property link         "https://forexnew.org/"
-#property version      "V.1.0"
+#property version      "1.0"
 #property description  "- Leverage and Spread Monitor"
 #property description  "- Indicator for Metatrader 4"
 #property strict
