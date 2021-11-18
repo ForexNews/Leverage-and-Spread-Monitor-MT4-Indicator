@@ -22,7 +22,7 @@
 - If you looking for the broker forex spread comparison table.
 - Please try to visit this page: [Broker Forex Reviews](https://forexnew.org/โบรกเกอร์-forex/)
 
-## MQL4 Code
+### MQL4 Code
 
 ```
 #property copyright    "ForexNew.org Opensource"
@@ -104,5 +104,5 @@ void OnDeinit(const int reason)
    ObjectsDeleteAll(0,"Custom_Label");
 }
 ```
-## Visit our website
+#### Visit our website
 - [ForexNew.org](https://forexnew.org/)
